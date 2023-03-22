@@ -1,0 +1,140 @@
+.users {
+  width: 20%;
+
+  margin: auto;
+  margin-top: 2vh;
+  padding: 0 0 3rem 0;
+
+  border: 1px solid #d4d4d4;
+}
+.react-logo {
+  margin-top: 2vh;
+  width: 40%;
+  margin: auto;
+}
+.react-logo > img {
+  width: 100%;
+  margin-top: 3vh;
+}
+.text {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+.login-signup {
+  width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  margin-top: 3vh;
+}
+.login-signup > .login {
+  border-bottom: 2px solid #e70b89;
+  font-weight: bold;
+}
+.signup {
+}
+.input {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.input > input {
+  width: 70%;
+  margin-top: 3vh;
+
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+.login {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.login > button {
+  position: relative;
+
+  width: 75%;
+  margin-top: 3vh;
+  color: white;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem;
+  background-color: #e70b89;
+  border: 0;
+}
+p {
+  margin-left: 5rem;
+  color: #e70b89;
+}
+.login-option {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  color: #d4d4d4;
+}
+.social-media {
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+.social-media > img {
+  width: 2rem;
+  margin: auto;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #d4d4d4;
+  margin-top: 3vh;
+  padding: 0.5rem;
+}
+.account {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 0.9rem;
+}
+.tc {
+  width: 90%;
+  display: flex;
+  gap: 0.1rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 0.9rem;
+}
+.tc > :nth-child(2) {
+  border-bottom: 1px solid #e70b89;
+}
+/* **************Responsive******* */
+@media screen and (max-width: 800px) {
+  .users {
+    width: 80%;
+  }
+  .text {
+    font-size: 0.8rem;
+  }
+  p {
+    margin-left: 4rem;
+    font-size: small;
+  }
+  .account {
+    font-size: small;
+  }
+  .tc {
+    width: 95%;
+    font-size: 0.7rem;
+  }
+}
